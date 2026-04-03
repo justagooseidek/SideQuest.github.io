@@ -112,6 +112,14 @@
             transition: color 0.2s;
         }
         .sidebar li:hover { color: var(--accent-color); }
+        
+        /* Ensure the About Me link looks like the other list items */
+        .sidebar li a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            width: 100%;
+        }
 
         .submenu {
             max-height: 0;
@@ -195,7 +203,7 @@
                 <button class="theme-opt" onclick="setTheme('light')">Light Mode</button>
                 <button class="theme-opt" onclick="setTheme('matrix')">Matrix Mode</button>
             </div>
-            <li>About Me</li>
+            <li><a href="https://ibaboutme.carrd.co" target="_blank">About Me</a></li>
         </ul>
     </div>
 
