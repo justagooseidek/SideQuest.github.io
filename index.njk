@@ -1,0 +1,7 @@
+---
+layout: layout.njk
+---
+
+{%- for post in collections.post | reverse -%}
+  {{ post.content | safe }}
+{%- endfor -%}
