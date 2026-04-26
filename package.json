@@ -1,0 +1,24 @@
+{
+  "name": "sidequest.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justagooseidek/SideQuest.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justagooseidek/SideQuest.github.io/issues"
+  },
+  "homepage": "https://github.com/justagooseidek/SideQuest.github.io#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "luxon": "^3.7.2"
+  }
+}
